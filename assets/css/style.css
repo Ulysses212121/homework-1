@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    height: 100%;
+
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.Name {
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    display: table-cell;
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.main-content {
+    clear: both;
+    background-color: white!important;
+    border-color: #ddd;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.title {
+    clear: both;
+    color: #4aaaa5;
+    padding: 20px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bioImg {
+    float: left;
+}
+
+.navbar {
+    background-color: white;
+    width: 100%;
+
+}
+
+.main {
+    background-image: url(/assets/images/criss-cross.png);
+    background-size: 100%;
+    width: 100%;
+}
